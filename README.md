@@ -1,18 +1,19 @@
-# 💫 About Me:
-Hi , I'm Niveditha P K<br>i'm currently pursuing MCA<br>
+Project Summary: Basic Python Keylogger
 
+This Python script functions as a basic keylogger, designed to capture keystrokes entered on the system. It utilizes the pynput library to monitor keyboard events. The captured keystrokes are recorded and appended to a text file named keylogger.txt. Subsequently, the script uses the smtplib and ssl libraries to send the contents of this log file to a specified email address.
 
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nivedithapk369@gmail.com) 
+Key Features:
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Niveditha369&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Niveditha369&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Niveditha369&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+Keystroke Capture: Records all keys pressed.
+Local Logging: Saves captured keystrokes to keylogger.txt.
+Email Reporting: Sends the content of the log file to a configured email address.
+Basic Implementation: Represents a foundational keylogger with potential for future enhancements like periodic email sending.
+Non-Executable: Requires explicit execution via the command line using python keylogger.py.
+Exit Mechanism: The keylogger can be terminated by pressing the Esc key.
+Requirements:
 
----
-[![](https://visitcount.itsvg.in/api?id=Niveditha369&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+Python 3.x
+pynput library (install via pip install pynput)
+smtplib and ssl (typically included with Python)
+A configured email account and password for sending logs.
+Note: This is a basic implementation and lacks advanced features found in more sophisticated keyloggers. Use responsibly and ethically, only on systems you own or with explicit permission.
